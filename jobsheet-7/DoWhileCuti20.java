@@ -15,6 +15,8 @@ public class DoWhileCuti20 {
                 jatahCuti -= jmlHari;
                 System.out.println("sisa jatah cuti anda adalah "+ jatahCuti);
 
+        } else {
+            break;
         }
     }while (true);
 }
