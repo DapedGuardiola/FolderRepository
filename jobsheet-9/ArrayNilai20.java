@@ -9,9 +9,9 @@ public class ArrayNilai20{
         }
         for (int i = 0; i < nilaiAkhir.length ; i++){
             if(nilaiAkhir[i] > 70){
-                System.out.println("mahasiswa ke-"+i+" Dinyatakan lulus");
-            }else if (nilaiAkhir[i] < 70){
-                System.out.println("mahasiswa ke-"+i+" DInyatakan tidak lulus");
+                System.out.println("mahasiswa ke-"+i+" Dinyatakan lulus!");
+            }else if (nilaiAkhir[i] <= 70){
+                System.out.println("mahasiswa ke-"+i+" DInyatakan tidak lulus!");
             }
         }
     } 
